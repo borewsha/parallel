@@ -8,13 +8,13 @@ add_executable(Integration
         integration/entrypoint.cpp
 )
 
-add_executable(Matrix
-        matrix/entrypoint.cpp
-        matrix/mul.cpp
-        matrix/mul.h
-        matrix/sum.cpp
-        matrix/sum.h
-)
+#add_executable(Matrix
+#        matrix/entrypoint.cpp
+#        matrix/mul.cpp
+#        matrix/mul.h
+#        matrix/sum.cpp
+#        matrix/sum.h
+# )
 
 add_executable(ParallelMod
         parallel_mod/config.h
